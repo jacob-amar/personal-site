@@ -1,15 +1,10 @@
 import * as React from "react"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <h1>Jacob Amar</h1>
-    <p>Hello, this is my under construction personal site!</p>
-    <p>Not much exciting here now, but who knows what could be coming?</p>
-  </Layout>
-)
+const Projects = () => <Layout></Layout>
 
 /*
  * Head export to define metadata for the page
@@ -17,4 +12,4 @@ const IndexPage = () => (
  */
 export const Head = () => <Seo title="Home" />
 
-export default IndexPage
+export default Projects
